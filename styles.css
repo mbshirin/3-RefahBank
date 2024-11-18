@@ -1,0 +1,403 @@
+@font-face {
+    font-family: "IranSans";
+    src: url("assets/fonts/iransansweb.ttf") format("truetype");
+}
+
+html, body {
+    font-family: 'IranSans' !important;
+    overflow-x: hidden;
+}
+
+.button-access {
+  text-decoration: none !important;
+  color: #004e92 !important;
+  float: right;
+  padding-right: 0 !important;
+}
+
+.btn-orange {
+  background: linear-gradient(to right,#fe1e00,#ff8601);
+}
+
+.btn-purple {
+  background: linear-gradient(to right, #ce1778, #21409a);
+  margin-left: 15px;
+  padding: 6px 12px !important;
+  width: 147px;
+  height: 43px;
+}
+
+.searchClick {
+  filter: invert(36%) sepia(98%) saturate(4577%) hue-rotate(210deg) brightness(104%) contrast(98%);
+  width: 30px;
+  margin-left: 20px;
+}
+
+.internetBank {
+  margin-left: 10px !important;
+  margin-right: 0 !important;
+  width: 30px;
+}
+
+.access-box button span {
+  vertical-align: middle;
+}
+
+.access-box {
+  float: left;
+  margin-bottom: 18px;
+}
+
+.nav-1 {
+  clear: both;
+}
+
+.navbar-nav-1 {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar-nav-1 li {
+    float: right;
+}
+
+.navbar-nav-1 li a{
+    display: block;
+    padding: 14px 16px;
+}
+
+.responsive-logo {
+    padding: 0;
+}
+
+@media screen and (max-width:767px){
+    .navbar-nav-1 li {
+        float: none;
+    }
+
+    .button-access {
+        display: none !important;
+    }
+
+    header .row {
+        display: block;
+        text-align: center;
+    }
+
+    .image-left {
+        float: left;
+    }
+
+    .image-left img{
+        width: 100%;
+    }
+
+    .responsive-logo img{
+        width: 40vw;
+        display: block;
+    }
+
+    .text img {
+        height: 30vw;
+    }
+
+    footer .image p {
+        display: none;
+    }
+
+    .image-right img {
+        width: 70vw !important;
+    }
+
+    .contact-us img {
+        margin-bottom: 10px;
+    }
+
+    footer .image img {
+        display: block;
+    }
+
+    .links ul li {
+        width: 100% !important;
+    }
+
+    .contact-us p {
+        width: 100% !important;
+    }
+
+    .text-buttons-grid {
+        display: block !important;
+    }
+
+    .btn-grid {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .text-buttons-grid img{
+        width: 8vw !important;
+    }
+
+    .card .card-image{
+        width: 20vw !important;
+    } 
+
+    .section-one {
+        padding-top: 10vw !important;
+    }
+
+    .access-box {
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        width: 1em !important;
+        height: 1em !important;
+    }
+}
+
+.hd h1 {
+    font-size: 25px;
+    margin-top: 100px;
+    color: #ff8601;
+    font-weight: bold;
+}
+
+.hd h2 {
+    font-size: 15px;
+    margin-top: 35px;
+    color: #21409a;
+}
+
+.text-right h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    color: #21409a;
+}
+
+.text-right p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.image-left {
+    float: left;
+}
+
+.text-right {
+    float: right;
+}
+
+.text-buttons-grid {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+}
+
+.grid-item {
+    margin: 0 auto;
+}
+
+.btn-grid {
+    padding: 14px 20px !important;
+    background-color: white;
+    border: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 39vw;
+    text-align: right;
+}
+
+.text-buttons-grid img {
+    width: 3vw;
+    margin-left: 20px;
+}
+
+.text h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    color: #21409a;
+}
+
+.text h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #21409a;
+}
+
+.text p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.text img {
+    border-radius: 12px;
+}
+
+.hd-text h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #21409a;   
+}
+
+.card .card-image {
+    width: 10vw;
+    align-self: center;
+}
+
+.card h3 {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card p {
+    text-align: center;
+    margin: 0px 0;
+    font-size: 15px;
+}
+
+.container-show {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background: rgb(66,66,102);
+    background: linear-gradient(140deg,#004483 0%,#00072c 100%);
+    flex-wrap: wrap;
+}
+
+.container-show .contact-card {
+    background-image: radial-gradient(#00366f59 1px, #001d6a12 -4px);
+}
+
+.container-show .contact-card h4 {
+    padding-right: 142px;
+    color: white;
+}
+
+.container-show .contact-card {
+    padding: 20px;
+}
+
+.center-vert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer {
+    background: linear-gradient(140deg,#004483 0%,#00072c 100%);
+    border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+
+.up .image img {
+    /* margin-top: 45px; */
+    margin: 0 auto;
+}
+
+.up .image p {
+    color: white;
+    font-weight: bold;
+}
+
+.links h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links ul {
+    color: white;
+    margin-top: 45px;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul li {
+    border-bottom: 1px dotted rgba(255, 255, 255, .3);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    float: right;
+    width: 46%;
+    margin-left: 26px;
+}
+
+.contact-us h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3vw;
+}
+
+.contact-us p {
+    float: right;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+hr {
+    color: white;
+}
+
+.down {
+    border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+
+.down p {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.contact-us img {
+    background-color: white;
+    border-radius: 100px;
+}
+
+.image-right img {
+    width: 100%;
+}
+
+footer .contact-us .logos {
+    display: inline-block;
+}
+
+.text li {
+    margin-bottom: 0.5rem;
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+    .image-left img {
+        margin-right: 50px;
+        width: 90%;
+    }
+
+    .btn-grid {
+        width: 37vw !important;
+    }
+
+    footer .image p {
+        display: none;
+    }
+
+    .links ul li {
+        width: 90% !important;
+    }
+}
+
+.section-one {
+    padding-top: 110px;
+}
